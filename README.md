@@ -58,6 +58,42 @@ you must give a groq api key and paste it at start of the orchaestration.py code
 
 
 
+## Workflow Diagram
+
+```mermaid
+flowchart TD
+
+    START([Start]) --> Router{Router}
+
+    %% Router branch
+    Router -->|knowledge| Knowledge[Knowledge Agent]
+    Router -->|screening| Memory[Memory Manager]
+
+    %% Knowledge path
+    Knowledge --> Output[Output]
+
+    %% Screening path
+    Memory --> TargetParser[Target Parser]
+    TargetParser --> LibDecision{Library Decision}
+
+    %% Library decision branch
+    LibDecision -->|generate| LibGen[Library Generator]
+    LibDecision -->|skip| Docking
+
+    LibGen --> Docking[Docking]
+    Docking --> Ranking[Scoring & Ranking]
+    Ranking --> SumDecision{Summary Decision}
+
+    %% Summary decision branch
+    SumDecision -->|generate| Summary[Summary Writer]
+    SumDecision -->|skip| Output
+
+    Summary --> Output
+    Output --> END([End])
+```
+
+
+
 
 
 
