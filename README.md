@@ -31,8 +31,7 @@ Run with a JSON query file:
     python orchestrator.py --query query.json
 ```
 
-Use a single query for testing
-example queries are present in example_queries.json
+Use a single query for testing. Example queries are present in example_queries.json
 
 ## Outputs:
 
@@ -55,7 +54,7 @@ The system answers basic drug discovery questions:
 these are stored in a knowledge_base.json file with definitions and importance
 
 ## Note
-you must give a groq api key and paste it at start of the code.
+you must give a groq api key and paste it at start of the orchaestration.py code.
 
 
 
