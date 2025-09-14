@@ -47,14 +47,15 @@ in this file last 5 sessions of the screening workflow are saved which makes it 
 
 ## Knowledge Base
 The system answers basic drug discovery questions:
--** Lipinski’s Rule of 5**
--** ADMET**
--** Docking score**
--** Virtual screening overview**
+- **Lipinski’s Rule of 5**
+- **ADMET**
+- **Docking score**
+- **Virtual screening overview**
 
 these are stored in a knowledge_base.json file with definitions and importance
 
-NOTE: you must give a groq api key and paste it at start of the code.
+## Note
+you must give a groq api key and paste it at start of the code.
 
 
 
