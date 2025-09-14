@@ -1,0 +1,35 @@
+{
+  "lipinski's rule of 5": {
+    "definition": "Lipinski's Rule of 5 is a set of rules used to evaluate drug-likeness",
+    "rules": [
+      "Molecular weight ≤ 500 Da",
+      "LogP ≤ 5 (lipophilicity)",
+      "≤ 5 hydrogen bond donors (NH, OH)",
+      "≤ 10 hydrogen bond acceptors (N, O)"
+    ],
+    "purpose": "Predicts oral bioavailability of drug compounds"
+  },
+  "admet": {
+    "definition": "ADMET stands for Absorption, Distribution, Metabolism, Excretion, and Toxicity",
+    "components": {
+      "Absorption": "How well a drug is absorbed into the bloodstream",
+      "Distribution": "How the drug spreads throughout the body",
+      "Metabolism": "How the body breaks down the drug",
+      "Excretion": "How the drug is eliminated from the body",
+      "Toxicity": "Potential harmful effects of the drug"
+    },
+    "importance": "Critical for drug safety and efficacy assessment"
+  },
+  "docking score": {
+    "definition": "A computational estimate of binding affinity between a ligand and protein target",
+    "interpretation": "Lower (more negative) scores typically indicate stronger binding",
+    "units": "Usually in kcal/mol",
+    "limitations": "Approximate values, experimental validation required"
+  },
+  "virtual screening": {
+    "definition": "Computational method to identify promising drug candidates from large chemical libraries",
+    "types": ["Structure-based", "Ligand-based", "Pharmacophore-based"],
+    "advantages": ["Cost-effective", "High throughput", "Reduces experimental burden"],
+    "workflow": "Target preparation → Library preparation → Screening → Hit selection"
+  }
+}
