@@ -1,4 +1,4 @@
-GROQ_API_KEY = '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'
+GROQ_API_KEY = ''
 import json
 import random
 import os
