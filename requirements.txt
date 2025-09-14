@@ -1,0 +1,10 @@
+langchain
+langchain-core
+langgraph
+pydantic
+langchain-openai
+langchain-groq
+faiss-cpu
+langchain-huggingface
+pandas
+langgraph-checkpoint-mongodb

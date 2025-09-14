@@ -1,0 +1,39 @@
+{
+  "last_target": "p53",
+  "last_library_size": 20,
+  "history": [
+    {
+      "timestamp": "2025-09-14T21:26:28.958749",
+      "query": {
+        "target": "p53",
+        "library_size": 20
+      },
+      "result_summary": {
+        "workflow_type": "screening",
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-09-14T21:27:08.537522",
+      "query": {
+        "library_size": 20,
+        "target": "p53"
+      },
+      "result_summary": {
+        "workflow_type": "screening",
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-09-14T21:37:44.878284",
+      "query": {
+        "library_size": 20,
+        "target": "p53"
+      },
+      "result_summary": {
+        "workflow_type": "screening",
+        "success": true
+      }
+    }
+  ]
+}

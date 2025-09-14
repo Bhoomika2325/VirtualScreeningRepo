@@ -1,0 +1,29 @@
+[
+  {
+    "target": "EGFR",
+    "library_size": 10,
+    "top_n": 5
+  },
+  {
+    "smiles_file": "custom_library.smi",
+    "skip_summary": true
+  },
+  {
+    "question": "What is Lipinski's Rule of 5?"
+  },
+  {
+    "target": "p53",
+    "library_size": 20
+  },
+  {
+    "library_size": 50
+  },
+  "What is ADMET?",
+  "Explain virtual screening in drug discovery.",
+  {
+    "smiles_file": "custom_library.smi",
+    "skip_summary": true
+}
+
+
+]
