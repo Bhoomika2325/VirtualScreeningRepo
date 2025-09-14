@@ -25,8 +25,9 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 ## Usage
-```bash
+
 Run with a JSON query file:
+```bash
     python orchestrator.py --query query.json
 ```
 
@@ -35,21 +36,21 @@ example queries are present in example_queries.json
 
 ## Outputs:
 
--**docking_results.csv** → All docking scores
--**top_hits.csv** → Ranked top 5 ligands
--**summary.md** → Human-readable Markdown summary
+- **docking_results.csv** → All docking scores
+- **top_hits.csv** → Ranked top 5 ligands
+- **summary.md** → Human-readable Markdown summary
 
 A seperate file for session memory is saved,
 in this file last 5 sessions of the screening workflow are saved which makes it easier to get:
--**last_target**
--**last_library**
+- **last_target**
+- **last_library**
 
 ## Knowledge Base
 The system answers basic drug discovery questions:
--**Lipinski’s Rule of 5**
--**ADMET**
--**Docking score**
--**Virtual screening overview**
+-** Lipinski’s Rule of 5**
+-** ADMET**
+-** Docking score**
+-** Virtual screening overview**
 
 these are stored in a knowledge_base.json file with definitions and importance
 
