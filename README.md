@@ -56,6 +56,9 @@ these are stored in a knowledge_base.json file with definitions and importance
 ## Note
 you must give a groq api key and paste it at start of the orchaestration.py code.
 
+## KnowledgeAgent Future Extensions
+- Currently the system is using keyword-based knowledge retreival.I want to enhance the system with semantic match using embedding-models (like sentence transformers).
+- Another future extension would be implementing RAG (Retrieval Augmented Generation) for matching and retrieval.
 
 
 ## Workflow Diagram
